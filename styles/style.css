@@ -1,0 +1,89 @@
+.ancizar-serif-noto{
+  font-family: "Ancizar Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.nab-nab{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 360;
+  font-style: normal;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 30px 150px 0px 150px;
+   gap: 590px;
+}
+.cart{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  white-space: nowrap;
+}
+.nav-logo{
+  height: 82px;
+  width: 135px;
+  display: block;
+}
+.nav-r{
+  display: flex;
+  align-items: center;
+  
+}
+
+.nav-r{
+  display: flex;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.nav-item{
+  margin-right: 32px;
+  display: inline-block;
+  
+}
+
+.nav-link{
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-color{
+  color: #000000;
+}
+/* share */
+.gray-clr{
+  color: #8987A1;
+}
+
+.Fresh-flower{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 150px;
+}
+.fresh-title-clr{
+  color: #E95A08;
+}
+.fresh-litle{
+  font-size: 65px;
+}
+.fresh-description{
+ font-size: 22px;
+}
+
+.fresh-lft{
+  width: 50%;
+}
+
+.fresh-rgt{
+  width: 50%;
+  height: auto;
+}
+
