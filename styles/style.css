@@ -59,7 +59,7 @@
 .nav-color{
   color: #000000;
 }
-/* share */
+/* share Css*/
 .gray-clr{
   color: #8987A1;
 }
@@ -90,7 +90,7 @@
   height: 355px;
 }
 
-/* Plant Section */
+/* Plant Section Css*/
 
 .The-plant{
   max-width: 1140px;
@@ -142,16 +142,8 @@
   margin: 0 auto;
   text-align: center;
 }
-.tow-img{
-  display: block;
-  gap: 25px;
-}
-.img-plant{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
 
-/* Flower & Plants Lover */
+/* Flower & Plants Lover Css */
 
 .flower-Plant {
   display: flex;
@@ -195,7 +187,7 @@
   margin-bottom: 20px;
 }
 
-/* Latest Deals */
+/* Latest Deals Css*/
 .Latest-deals{
   margin-top: 134px;
   margin-left: 150px;
@@ -262,4 +254,55 @@
   font-size: 28px;
   color: white;
 }
+/* The Bunch Css  */
+
+.join-bunch img{
+    width: 100%;
+    height: auto;
+}
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+.join-bunch{
+    position: relative;
+}
+.join-bunch-content{
+   top: 0px;
+    left: 0px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+     color: white;
+    background: rgba(0, 0, 0, 0.4); 
+}
+.join-bunch-content h1{
+    font-size: 50px;
+}
+.join-bunch-submit{
+    display: flex;
+    gap: 0px;
+
+}
+.join-bunch-submit input{
+    width: 644px;
+    height: 50px;
+    padding-left: 20px;
+}
+.join-bunch-submit button{
+    width: 186px;
+    height: 57px;
+    background-color: #E95A08;
+    color: white;
+    font-weight: 600;
+}
+.join-bunch-section{
+    margin-top: 44.5px;
+}
+
 
