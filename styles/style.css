@@ -34,7 +34,9 @@
 .nav-r{
   display: flex;
   align-items: center;
-  
+  padding-top: 18px;
+  padding-bottom: 18px;
+
 }
 
 .nav-r{
@@ -44,7 +46,7 @@
   padding-bottom: 18px;
 }
 .nav-item{
-  margin-right: 32px;
+  margin-right: 48px;
   display: inline-block;
   
 }
@@ -66,7 +68,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 150px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 .fresh-title-clr{
   color: #E95A08;
@@ -84,6 +87,179 @@
 
 .fresh-rgt{
   width: 50%;
+  height: 355px;
+}
+
+/* Plant Section */
+
+.The-plant{
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+.Plants{
+  width: 1140px;
+  padding: 20px 16px;
+}
+.title-plants{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.plant-dis{
+  font-size: 22px;
+  max-width: 700px;
+
+}
+.cart-plant{
+  display: grid;
+  grid-template-columns:repeat(4, 1fr);
+  margin-top: 49px;
+  gap: 20px;
+}
+.cart-plant img{
+  height: 322.98px;
+  width: auto;
+}
+.cart-plant p{
+  font-size: 22px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.cart-plant h4{
+  font-size: 22px;
+  font-weight: bold;
+}
+.cart-plant button{
+  color: white;
+  background-color: #E95A08;
+  height: 50px;
+  width: 270px;
+  border: none;
+}
+.deals{
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+.tow-img{
+  display: block;
+  gap: 25px;
+}
+.img-plant{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Flower & Plants Lover */
+
+.flower-Plant {
+  display: flex;
+  margin-top: 210.12px;
+  gap: 60px;
+  margin-left: 150px;
+  margin-right: 150px;
+  align-items: center;
+}
+.flower-plant-lft{
+  position: relative;
+  width: 50%;
+  overflow: visible;
+}
+.left-img{
+  width: 120%;
   height: auto;
+  display: block;
+  margin-left: -20%;
+}
+.trusted{
+  position: absolute;
+  height: 286px;
+  width: 286px;
+  right: 20px;
+  top: 20px;
+}
+.flower-plant-rgt{
+  width: 50%;
+  padding: 30px;
+}
+.flower-plant-rgt h2{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.flower-plant-des{
+  font-size: 22px;
+}
+
+.flower-plant-des{
+  margin-bottom: 20px;
+}
+
+/* Latest Deals */
+.Latest-deals{
+  margin-top: 134px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.deals-title{
+  font-size: 50px;
+}
+.latest-deals-image{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  height: 423px;
+  margin-top: 120px;
+  gap: 28px;
+}
+.latest-deals-left{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 25px;
+}
+.latest-deals-image img{
+ border-radius: 20px;
+ width: 100%;
+ height: 100%;
+}
+.latest-deals-image{
+  width: 100%;
+  height: 100%;
+}
+.latest-deals-right{
+  height: auto;
+}
+.latest-deals-left-up,
+.latest-deals-left-down,
+.latest-deals-right{
+  position: relative;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+.latest-deals-left h3{
+  font-size: 20px;
+}
+.latest-deals-left a{
+  font-size: 16px;
+  color: white;
+}
+.latest-deals-right h3{
+ font-size: 40px;
+}
+.latest-deals-right a{
+  font-size: 28px;
+  color: white;
 }
 
